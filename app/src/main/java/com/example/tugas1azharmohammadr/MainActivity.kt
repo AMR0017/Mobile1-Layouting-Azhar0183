@@ -19,10 +19,12 @@ class MainActivity : AppCompatActivity() {
 
         val favorite = findViewById<ImageButton>(R.id.faveImgButton)
 
+//        ketika imagebutton favorite ditekan maka akan muncul pop up text
         favorite.setOnClickListener{
             Toast.makeText(this, "Ini tombol favorite", Toast.LENGTH_SHORT).show()
         }
 
+//        Ketika button simpan ditekan, akan muncul pop up text sesuai dengan kondisi edit text
         simpan.setOnClickListener {
             if (stambukEdt.text.length > 1 && namaEdt.text.length > 1) {
                 Toast.makeText(this, "Stambuk = ${stambukEdt.text} , nama = ${namaEdt.text} telah disimpan", Toast.LENGTH_SHORT).show()
@@ -33,6 +35,7 @@ class MainActivity : AppCompatActivity() {
         }
 
 
+//        Ketika button batal ditekan, maka akan mereset edit text dan menampilkan pop up text
         batal.setOnClickListener {
             stambukEdt.setText("")
             namaEdt.setText("")
