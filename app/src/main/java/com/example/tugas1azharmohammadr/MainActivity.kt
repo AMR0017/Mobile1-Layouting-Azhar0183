@@ -19,6 +19,10 @@ class MainActivity : AppCompatActivity() {
 
         val favorite = findViewById<ImageButton>(R.id.faveImgButton)
 
+        favorite.setOnClickListener{
+            Toast.makeText(this, "Ini tombol favorite", Toast.LENGTH_SHORT).show()
+        }
+
         simpan.setOnClickListener {
             if (stambukEdt.text.length > 1 && namaEdt.text.length > 1) {
                 Toast.makeText(this, "Stambuk = ${stambukEdt.text} , nama = ${namaEdt.text} telah disimpan", Toast.LENGTH_SHORT).show()

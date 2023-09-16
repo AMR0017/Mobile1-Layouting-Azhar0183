@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Tugas1AzharMohammadR</string>
+    <string name="deskripsiStrings">Fakultas Ilmu Komputer merupakan salah satu dari 12 (dua belas) Fakultas yang dibina oleh Universitas Muslim Indonesia yang berada dibawah naungan Yayasan Badan Wakaf UMI. Berawal pada pemikiran pimpinan Universitas Muslim Indonesia dalam rangka melihat betapa berkembang pesatnya Sistem Informasi di dunia global dewasa ini. Indonesia umumnya dan khususnya Kawasan Indonesia Timur sangat dibutuhkan sumber daya manusia di bidang Teknologi Informasi.</string>
+    <string name="nameHint">Azhar Mohammad R</string>
+    <string name="stambukHint">13020200183</string>
+    <string name="name">Nama</string>
+    <string name="stambuk">Stambuk</string>
+    <string name="fikom">FAKULTAS ILMU KOMPUTER</string>
 </resources>
